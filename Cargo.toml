@@ -1,0 +1,16 @@
+[package]
+name = "mpsc_channel"
+version = "0.1.0"
+edition = "2021"
+author = ["Phoenix <Phoenix500526@163.com>"]
+license = "Apache-2.0"
+keywords = ["multi-thread", "synchronous"]
+description = "A channel implementation whcih base on key queuing"
+categories = ["mpsc channel"]
+repository = "https://https://github.com/Phoenix500526/mpsc_channel"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hashbrown = "0.12.3"
+log = "0.4.17"
+thiserror = "1"
